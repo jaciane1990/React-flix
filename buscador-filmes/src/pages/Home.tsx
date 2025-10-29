@@ -16,6 +16,7 @@ export default function Home() {
 
   return (
     <div>
+    <h1>React Flix</h1>
       <h1>Buscador de Filmes</h1>
       <form onSubmit={handleSearch}>
         <input
