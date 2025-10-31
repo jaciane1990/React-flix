@@ -3,4 +3,6 @@ export interface Movie {
   Year: string;
   imdbID: string;
   Poster: string;
+  Director?: string;
+  Plot?: string;
 }
