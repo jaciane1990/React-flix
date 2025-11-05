@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import MovieDetails from './pages/MovieDetails';
-import './App.css';
+import './App.scss';
 import FavoritesProvider from './contexts/FavoritesContext';
 
 export default function App() {
